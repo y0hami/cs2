@@ -4,7 +4,7 @@
 
 ### Launch options
 ```
--novid -high -threads 4 -refresh 144 +cl_forcepreload 1 -nod3d9ex1 -nojoy -exec binds.cfg
+-novid -high -threads 4 -refresh 144 +cl_forcepreload 1 -nod3d9ex1 -nojoy -exec hami_2018.cfg
 ```
 
 ### Video Options
