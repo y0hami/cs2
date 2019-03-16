@@ -15,9 +15,9 @@
 | Aspect Ratio                          | 4:3               |
 | Resolution                            | 1600x1200         |
 | Display Mode                          | Fullscreen        |
-| Global Shadow Quality                 | Medium            |
+| Global Shadow Quality                 | High              |
 | Model / Texture Detail                | Medium            |
-| Effect Detail                         | Medium            |
+| Effect Detail                         | High              |
 | Shader Detail                         | High              |
 | Multicore Rendering                   | Enabled           |
 | Multisampling Anti-Aliasing Mode      | 8x MSAA           |
