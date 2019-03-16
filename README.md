@@ -10,7 +10,7 @@
 ### Video Options
 | Setting                               | Value             |
 |---------------------------------------|-------------------|
-| Brightness                            | 2.2          |
+| Brightness                            | 130%              |
 | Color Mode                            | Computer Monitor  |
 | Aspect Ratio                          | 4:3               |
 | Resolution                            | 1600x1200         |
