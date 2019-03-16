@@ -18,7 +18,7 @@
 | Global Shadow Quality                 | High              |
 | Model / Texture Detail                | Medium            |
 | Effect Detail                         | High              |
-| Shader Detail                         | High              |
+| Shader Detail                         | Very High         |
 | Multicore Rendering                   | Enabled           |
 | Multisampling Anti-Aliasing Mode      | 8x MSAA           |
 | Texture Filtering Mode                | Auto              |
