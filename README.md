@@ -2,47 +2,70 @@
 
 ---
 
-### Launch options
+## Launch options
 ```
--d3d9ex  -tickrate 128 -novid -high -threads 4 -refresh 144 +cl_forcepreload 1 -nod3d9ex1 -nojoy -exec hami.cfg
+-d3d9ex -tickrate 128 -novid -high -threads 4 -refresh 144 +cl_forcepreload 1 -nod3d9ex1 -nojoy
 ```
 
-### Video Options
-| Setting                               | Value             |
-|---------------------------------------|-------------------|
-| Brightness                            | 80%               |
-| Color Mode                            | Computer Monitor  |
-| Aspect Ratio                          | 4:3               |
-| Resolution                            | 1600x1200         |
-| Display Mode                          | Fullscreen        |
-| Global Shadow Quality                 | High              |
-| Model / Texture Detail                | Medium            |
-| Effect Detail                         | High              |
-| Shader Detail                         | Very High         |
-| Multicore Rendering                   | Enabled           |
-| Multisampling Anti-Aliasing Mode      | 8x MSAA           |
-| Texture Filtering Mode                | Auto              |
-| FXAA Anti-Aliasing                    | Enabled           |
-| Wait for Vertical Sync                | Disabled          |
-| Motion Blur                           | Disabled          |
+## Options
 
+### Game
 
-### Audio Options
+| Setting                         | Value                       |
+|---------------------------------|-----------------------------|
+| Community Notification Location | Bottom Right                |
+| Health/Ammo Style               | Default                     |
+| Bomb Hud Position               | Show In Inventory           |
+| Mini-Scoreboard Position        | Top of Screen               |
+| Mini-Scoreboard Style           | Just Show Player Count      |
+| Show Team Position In Hud       | Show Location and Equipment |
+| Hide Avatar Images              | Show Only Friends           |
+| Automatic Killer Replay         | No                          |
+| Switch Weapon on Pick Up        | No                          |
+| Open Buy Menu With Use Key      | No                          |
+
+### Audio
+
 | Setting                               | Value                 |
 |---------------------------------------|-----------------------|
 | Master Volume                         | 0.5                   |
 | Music Volume In Steam Overlay         | 0.1                   |
 | GOTV Caster Volume                    | 1                     |
-| Audio Device                          | OS Default Device     |
 | Audio Output Configuration            | Stereo Headphones 	|
-| Advanced 3D Audio Processing          | Enabled               |
-| VOIP Volume                           | 1                     |
+| Audio Device                          | Headphones            |
+| Advanced 3D Audio Processing          | Yes                   |
 | Enable Voice                          | Press to Use Mic      |
-| Play Audio When Game In Background    | No                    |
-| Master Music Volume                   | 0.66                  |
+| VOIP Volume                           | 1                     |
+| VOIP Positional                       | No                    |
+| Play Audio When Game In Background    | Yes                   |
 | Main Menu Volume                      | 0                     |
 | Round Start Volume                    | 0                     |
 | Round End Volume                      | 0                     |
-| Bomb/Hostage Volume                   | 0.16                  |
-| Ten Second Warning Volume             | 0.07                  |
+| Bomb/Hostage Volume                   | 0.25                  |
+| Ten Second Warning Volume             | 0.25                  |
 | Death Camera Volume                   | 0                     |
+| MVP Volume                            | 0                     |
+
+### Video
+
+| Setting                               | Value                  |
+|---------------------------------------|------------------------|
+| Color Mode                            | Computer Monitor       |
+| Brightness                            | 110%                   |
+| Aspect Ratio                          | 4:3 or 16:9            |
+| Resolution                            | 1600x1200 or 2560x1440 |
+| Display Mode                          | Fullscreen             |
+| Global Shadow Quality                 | High                   |
+| Model / Texture Detail                | Medium                 |
+| Effect Detail                         | High                   |
+| Shader Detail                         | Very High              |
+| Multicore Rendering                   | Enabled                |
+| Multisampling Anti-Aliasing Mode      | 8x MSAA                |
+| FXAA Anti-Aliasing                    | Enabled                |
+| Texture Filtering Mode                | Trilinear              |
+| Wait for Vertical Sync                | Disabled               |
+| Motion Blur                           | Disabled               |
+
+## Configs
+
+
