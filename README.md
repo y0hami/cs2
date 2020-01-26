@@ -65,7 +65,3 @@
 | Texture Filtering Mode                | Trilinear              |
 | Wait for Vertical Sync                | Disabled               |
 | Motion Blur                           | Disabled               |
-
-## Configs
-
-
