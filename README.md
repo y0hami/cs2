@@ -2,6 +2,19 @@
 
 ---
 
+## Configs
+
+Execute on launch:
+[`hami.cfg`](configs/hami.cfg)
+
+ - If I'm playing on 4:3
+   [`hami_43_fixes.cfg`](configs/hami_43_fixes.cfg)
+  
+ - If I'm playing on 16:9 (native)
+   [`hami_native_fixes.cfg`](configs/hami_native_fixes.cfg)
+
+---
+
 ## Launch options
 ```
 -refresh 144 -freq 144 -high -threads 6 -novid -nojoy -tickrate 128 +rate 128000 +cl_updaterate 128 +cl_cmdrate 128 +cl_forcepreload 1
