@@ -22,59 +22,54 @@ Execute on launch:
 
 ## Options
 
-### Game
-
-| Setting                         | Value                       |
-|---------------------------------|-----------------------------|
-| Community Notification Location | Bottom Right                |
-| Health/Ammo Style               | Default                     |
-| Bomb Hud Position               | Show In Inventory           |
-| Mini-Scoreboard Position        | Top of Screen               |
-| Mini-Scoreboard Style           | Just Show Player Count      |
-| Show Team Position In Hud       | Show Location and Equipment |
-| Hide Avatar Images              | Show Only Friends           |
-| Automatic Killer Replay         | No                          |
-| Switch Weapon on Pick Up        | No                          |
-| Open Buy Menu With Use Key      | No                          |
-
-### Audio
-
-| Setting                               | Value                 |
-|---------------------------------------|-----------------------|
-| Master Volume                         | 0.5                   |
-| Music Volume In Steam Overlay         | 0.1                   |
-| GOTV Caster Volume                    | 1                     |
-| Audio Output Configuration            | Stereo Headphones 	|
-| Audio Device                          | Headphones            |
-| Advanced 3D Audio Processing          | Yes                   |
-| Enable Voice                          | Press to Use Mic      |
-| VOIP Volume                           | 1                     |
-| VOIP Positional                       | No                    |
-| Play Audio When Game In Background    | Yes                   |
-| Main Menu Volume                      | 0                     |
-| Round Start Volume                    | 0                     |
-| Round End Volume                      | 0                     |
-| Bomb/Hostage Volume                   | 0.25                  |
-| Ten Second Warning Volume             | 0.25                  |
-| Death Camera Volume                   | 0                     |
-| MVP Volume                            | 0                     |
-
 ### Video
 
-| Setting                               | Value                  |
-|---------------------------------------|------------------------|
-| Color Mode                            | Computer Monitor       |
-| Brightness                            | 110%                   |
-| Aspect Ratio                          | 4:3 or 16:9            |
-| Resolution                            | 1600x1200 or 2560x1440 |
-| Display Mode                          | Fullscreen             |
-| Global Shadow Quality                 | High                   |
-| Model / Texture Detail                | Medium                 |
-| Effect Detail                         | High                   |
-| Shader Detail                         | Very High              |
-| Multicore Rendering                   | Enabled                |
-| Multisampling Anti-Aliasing Mode      | 8x MSAA                |
-| FXAA Anti-Aliasing                    | Enabled                |
-| Texture Filtering Mode                | Trilinear              |
-| Wait for Vertical Sync                | Disabled               |
-| Motion Blur                           | Disabled               |
+#### Resolution
+I play either 4:3 or 16:9 depending on my mood
+
+##### 4:3
+| Key           | Value       |
+|---------------|-------------|
+| Aspect Ratio  | 4:3         |
+| Resolution    | 1600x1200   |
+| Display Mode  | Fullscreen  |
+
+##### 16:9 (native)
+| Key           | Value       |
+|---------------|-------------|
+| Aspect Ratio  | 16:9        |
+| Resolution    | 2560x1440   |
+| Display Mode  | Fullscreen  |
+
+#### Graphic Settings
+| Key                               | Value      |
+|-----------------------------------|------------|
+| Global Shadow Quality             | High       |
+| Model / Texture Detail            | High       |
+| Texture Streaming                 | Disabled   |
+| Effect Detail                     | High       |
+| Shader Detail                     | Medium     |
+| Boost Player Contrast             | Disabled   |
+| Multicore Rendering               | Enabled    |
+| Multisampling Anti-Aliasing Mode  | 8X MSAA    |
+| FXAA Anti-Aliasing                | Enabled    |
+| Texture Filtering Mode            | Trilinear  |
+| Wait for Vertial Sync             | Disabled   |
+| Motion Blur                       | Disabled   |
+| Triple-Monitor Mode               | Disabled   |
+
+#### Audio
+| Key                       | Value              |
+|---------------------------|--------------------|
+| Master Volume             | 50%                |
+| Audio Output Config       | Stereo Headphones  | 
+|                           |                    |
+| Main Menu Volume          | 0                  |
+| Round Start Volume        | 0                  |
+| Round End Volume          | 0                  |
+| Bomb/Hostage Volume       | 0                  |
+| Ten Second Warning Volume | 25%                |
+| Death Camera Volume       | 0                  |
+| MVP Volume                | 5%                 |
+| Mute MVP when players...  | Yes                |
+| Danger Zone Music Volume  | 15%                |
