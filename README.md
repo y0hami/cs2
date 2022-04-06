@@ -17,7 +17,7 @@ Execute on launch:
 
 ## Launch options
 ```
--refresh 144 -freq 144 -high -threads 6 -novid -nojoy -tickrate 128 +rate 128000 +cl_updaterate 128 +cl_cmdrate 128 +cl_forcepreload 1
+-refresh 144 -freq 144 -high -novid -nojoy -tickrate 128 +rate 128000 +cl_updaterate 128 +cl_cmdrate 128 +cl_forcepreload 1
 ```
 
 ## Options
