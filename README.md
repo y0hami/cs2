@@ -1,4 +1,4 @@
-# hami's csgo configs
+# My Counter-Strike Settings
 
 ---
 
